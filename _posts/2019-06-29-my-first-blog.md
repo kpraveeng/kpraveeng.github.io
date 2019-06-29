@@ -2,7 +2,7 @@
 layout: post
 title: My First Blog Post
 subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
-date: 2019-06-29 21:11:27
+date: 2019-06-28 14:11:27
 author: Praveen
 ---
 
