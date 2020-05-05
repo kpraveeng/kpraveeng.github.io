@@ -1,65 +1,36 @@
-# _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-This Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license, which requires attribution.
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
-## Usage
-To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
+## Demo
 
-## Examples
-Here are some projects that have used this Jekyll Theme:
-* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
-* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
-* [Mãos de amar](https://www.maosdeamar.com.br/)
-* [ATK Team](http://www.atksec.com/)
-* [Coding Club](https://ourcodingclub.github.io/)
-* [Dev Empathy Book Club](http://www.devempathybook.club/)
-* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
-## Steps for Setup:
+The main page would look like this:
 
-### Make sure you have Ruby
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
 
-First, make sure you have [Ruby](https://www.ruby-lang.org/en/) installed. You can confirm this by running `ruby -v` on the command line:
+The post page would look like this:
 
-```sh
-$ ruby -v
-ruby [version number] (date) [your platform]
-```
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
 
-If you get something like `"Error, command not found"` visit the link above and
-install Ruby for your platform.
+## Features
 
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
 
-### Make sure you have Bundler
+## Installation:
 
-Next, make sure you have [Bundler](https://bundler.io) installed. Just like
-above, run `bundle -v` on the command line:
+Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
 
-```sh
-$ bundle -v
-bundle [version number]
-```
+## License
 
-If you get `"Error, command not found"` run `gem install bundler` to install it
-using RubyGems.
+GNU General Public License v3.0
 
-### Run this repository
+## Donate
 
-Clone the repository, and `cd` into it:
-```sh
-$ git clone https://github.com/ndrewtl/airspace-jekyll.git
-$ cd airspace-jekyll
-```
-
-Install dependencies locally:
-```sh
-$ bundle install --path vendor/bundle
-```
-
-This should install a local copy of jekyll.
-
-Now run the server:
-```sh
-$ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
-```
+<p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
+<p align="center"><b>Thank you for your support ❤️</b></p>
