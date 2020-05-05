@@ -651,16 +651,18 @@ template {
 .css .nt + .nt {
   color: #999; }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box; }
 
 html {
   line-height: 1.5; }
 
 body {
-  font-family: 'Lato', sans-serif;
-  color: #515151;
-  background-color: #0b0b0b;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  background-color: #a29595;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -710,7 +712,8 @@ table {
   text-align: left;
   border-collapse: collapse; }
 
-table td, table.blueTable th {
+table td,
+table.blueTable th {
   border: 1px solid #aaa;
   padding: 3px 2px; }
 
@@ -722,7 +725,7 @@ table tr:nth-child(even) {
 
 table thead {
   background: #a9c4d1;
-  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
+  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #a9c4d1 100%);
   border-bottom: 1px solid #8c8c8c; }
 
 table thead th {
@@ -739,18 +742,19 @@ table tfoot {
   font-weight: bold;
   color: #fff;
   background: #d0e4f5;
-  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #d0e4f5 100%);
   border-top: 2px solid #444; }
 
 table tfoot td {
   font-size: 14px; }
 
 .wrapper {
-  max-width: 1250px;
+  max-width: 100%;
   position: relative; }
 
-.post, .article-page {
-  background-color: #fff; }
+.post,
+.article-page {
+  background-color: #000000; }
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
@@ -760,7 +764,8 @@ table tfoot td {
   background: rgba(38, 57, 89, 0.8);
   color: #ffffff; }
 
-.clearfix::before, .clearfix::after {
+.clearfix::before,
+.clearfix::after {
   content: "";
   display: table; }
 
@@ -779,7 +784,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff; }
+  background-color: #000000; }
 
 .about {
   margin: 0 0 40px;
@@ -799,13 +804,13 @@ table tfoot td {
     .about img:hover {
       transform: scale3d(0.9, 0.9, 1); }
   .about .author-name {
-    font-family: 'PT Serif', serif;
+    font-family: "PT Serif", serif;
     margin: 0 0 10px;
     position: relative;
     padding-bottom: 15px;
     font-size: 16px;
     text-transform: uppercase;
-    color: #333030;
+    color: #ffffff;
     font-weight: 700; }
     .about .author-name::after {
       content: "";
@@ -817,7 +822,7 @@ table tfoot td {
       width: 7px;
       height: 7px;
       border-radius: 100%;
-      background-color: #515151; }
+      background-color: #ffffff; }
   .about p {
     font-size: 16px;
     margin: 0 0 10px; }
@@ -836,6 +841,7 @@ table tfoot td {
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
+  color: #ffffff;
   text-transform: uppercase;
   text-align: center; }
   .contact .contact-title::before {
@@ -847,7 +853,7 @@ table tfoot td {
     position: absolute;
     top: 50%;
     left: 0;
-    background-color: #515151; }
+    background-color: #ffffff; }
   .contact .contact-title::after {
     content: "";
     display: block;
@@ -857,7 +863,7 @@ table tfoot td {
     position: absolute;
     top: 50%;
     right: 0;
-    background-color: #515151; }
+    background-color: #ffffff; }
 .contact ul {
   margin: 0;
   padding: 0;
@@ -869,7 +875,7 @@ table tfoot td {
     .contact ul li:first-child {
       margin-left: 0; }
     .contact ul li a {
-      color: #515151;
+      color: #ffffff;
       display: block;
       padding: 5px;
       font-size: 18px;
@@ -893,7 +899,7 @@ footer .copyright {
   min-height: 11rem;
   border-radius: 10px;
   overflow: hidden;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15); }
   .post:hover {
     transform: translate(0px, -2px);
@@ -915,17 +921,18 @@ footer .copyright {
       font-size: 30px;
       font-weight: 400; }
       .post .post-content .post-title a {
-        font-family: 'PT Serif', serif;
+        font-family: "PT Serif", serif;
         text-decoration: none;
-        color: #263959; }
+        color: #ffffff; }
     .post .post-content p {
       margin-top: 0; }
 
-a.older-posts, a.newer-posts {
+a.older-posts,
+a.newer-posts {
   font-size: 18px;
   display: inline-block;
-  color: #515151;
-  transition: transform .2s; }
+  color: #ffffff;
+  transition: transform 0.2s; }
 
 a.older-posts:hover {
   transform: translateX(5px); }
